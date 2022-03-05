@@ -78,10 +78,14 @@
                         toastr.success(`Agendamento concluído com sucesso!`, 'SUCESSO!', {
                             "showDuration": "400",
                             "hideDuration": "400",
-                            "timeOut": "5000",
+                            "timeOut": "4000",
                             "extendedTimeOut": "100",
                             "positionClass": "toast-top-right",
                         });
+                        setTimeout(function() {
+                            document.location.reload(true);
+                        }, 1000);
+
                     } else {
                         toastr.warning(`Algo aconteceu e os dados não foram cadastrados, Entre em contato com o suporte!`, 'ATENÇÃO!', {
                             "showDuration": "400",
