@@ -1,0 +1,238 @@
+/*
+  Template Name: One-health
+  Template URI: https://macodeid.com/projects/one-health
+  Copyright: MACode ID, https://macodeid.com/
+  License: Creative Commons 4.0
+  License URI: https://creativecommons.org/licenses/by/4.0/
+  Version: 1.0
+ */
+
+:root {
+    --primary: #00D9A5;
+    --accent: #FF3D85;
+    --secondary: #4E5AFE;
+    --warning: #EED818;
+    --info: #05B4E1;
+    --danger: #FF4943;
+    --success: #96C93D;
+    --dark: #343531;
+    --light: #F5F9F6;
+    --cs: #596261;
+    --grey: #6E807A;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 1.5;
+    color: #343531;
+}
+
+a {
+    color: #07be94;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #03a882;
+    text-decoration: underline;
+}
+
+
+.text-xs {
+    font-size: 12px !important;
+}
+
+.text-sm {
+    font-size: 14px !important;
+}
+
+.text-md {
+    font-size: 1rem !important;
+}
+
+.text-lg {
+    font-size: 18px !important;
+}
+
+.text-xl {
+    font-size: 20px !important;
+}
+
+
+.avatar {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar-img {
+    margin-right: 6px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.avatar-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.page-banner {
+    position: relative;
+    height: 300px;
+    z-index: 10;
+}
+
+.page-hero.overlay-dark::before,
+.page-banner.overlay-dark::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 53, 49, 0.7);
+    z-index: 1;
+}
+
+.page-banner .breadcrumb-item,
+.page-banner .breadcrumb-item a {
+    font-size: 14px;
+}
+
+.hero-section,
+.banner-section {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    color: #ffffff;
+    z-index: 10;
+}
+
+.input-navbar {
+    width: auto;
+    max-width: 280px;
+}
+
+.input-navbar .input-group-text {
+    background-color: #fff;
+    color: #00D9A5;
+}
+
+.input-navbar .form-control {
+    height: calc(1.5em + 1rem + 2px);
+}
+
+
+
+.card-blog {
+    position: relative;
+    display: block;
+    max-width: 264px;
+    /*margin: 0 auto;*/
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    overflow: hidden;
+}
+
+.card-blog .header {
+    width: 100%;
+    height: 140px;
+    background-color: #9A9F97;
+    overflow: hidden;
+}
+
+.card-blog .header .post-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-blog .header .post-thumb img {
+    width: 100%;
+    transition: transform .2s linear;
+}
+
+.card-blog .header .post-thumb:hover img {
+    transform: scale(1.2);
+}
+
+.card-blog .body {
+    padding: 15px 20px;
+}
+
+.card-blog .post-category {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 9;
+}
+
+.card-blog .post-category a {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    background-color: #4E5AFE;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.card-blog .post-category a:hover {
+    text-decoration: none;
+}
+
+.card-blog .post-title,
+.card-blog .post-title a {
+    color: #343531;
+}
+
+.card-blog .post-title:hover,
+.card-blog .post-title a:hover {
+    text-decoration: none;
+    color: #07be94;
+}
+
+.card-blog .site-info {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.card-blog .avatar-img {
+    width: 40px;
+    height: 40px;
+}
+
+.page-footer {
+    position: relative;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 16px;
+    background-color: #2D3B38;
+    color: #fff;
+}
+
+.page-footer h5 {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.page-footer hr {
+    border-color: #4F5E5B;
+}
+
+.botao {
+
+    border-radius: 200px !important;
+}
